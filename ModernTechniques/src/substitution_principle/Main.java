@@ -1,5 +1,6 @@
 package substitution_principle;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -12,6 +13,16 @@ public class Main {
             build(building);
             build(office);
 
+            List<Building> buildings = new ArrayList<Building>();
+            buildings.add(new Building());
+            buildings.add(new Office());
+            printBuildings(buildings);
+
+//            List<Office> offices = new ArrayList<Office>();
+//            offices.add(new Office());
+//            offices.add(new Office());
+//            printBuildings(offices);
+
       }
 
       static void build(Building building) {
@@ -22,5 +33,12 @@ public class Main {
 
       static void printBuildings(List<Building> buildings) {
 
+            System.out.println();
+
+            for (int i = 0; i < buildings.size(); i++) {
+                  System.out.println(i + 1 + ": " + buildings.get(i).toString());
+            }
+
+            System.out.println();
       }
 }
