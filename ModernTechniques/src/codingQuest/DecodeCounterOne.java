@@ -40,7 +40,7 @@ public class DecodeCounterOne {
 
       // Given a digit sequence of length n,
       // returns count of possible decodings by
-      // replacing 1 with A, 2 woth B, ... 26 with Z
+      // replacing 1 with A, 2 worth B, ... 26 with Z
       static int countWays(char[] digits, int n) {
             if (n == 0 || (n == 1 && digits[0] == '0'))
                   return 0;
@@ -55,5 +55,5 @@ public class DecodeCounterOne {
       }
 }
 
-//This code is contributed by Smitha Dinesh Semwal.
-//Modified by Atanu Sen
+//This code is contributed by Smith .
+//Modified by 
