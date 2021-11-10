@@ -25,6 +25,7 @@ public class SubtractQuiz {
                         if (number1 - number2 == answer) {
                               System.out.println("You are CORRECT!");
                               correctCount++;
+                              count++;
                         } else {
                               System.out.println("Your answer is WRONG! \n " + number1 + " - " + number2 + " should be "
                                           + (number1 - number2));
