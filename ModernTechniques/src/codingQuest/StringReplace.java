@@ -10,7 +10,8 @@ public class StringReplace {
 
       public static String addKbeforeFs(String str) {
             String resultString = str.replaceAll("f", "Kf");
-            return resultString;
+            String outPutString = resultString.replaceAll("F", "KF");
+            return outPutString;
       }
 
 }
